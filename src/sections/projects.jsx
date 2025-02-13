@@ -89,7 +89,11 @@ const Projects = () => {
               <p className="text-neutral-400 hover:text-white  sm:hover:bg-[#3A3A49]">
                 Check Live Site
               </p>
-              <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
+              <img
+                src="/merieme-portfolio/assets/arrow-up.png"
+                alt="arrow"
+                className="w-3 h-3"
+              />
             </a>
           </div>
 
@@ -98,7 +102,10 @@ const Projects = () => {
               className="arrow-btn"
               onClick={() => handleNavigation('previous')}
             >
-              <img src="/assets/left-arrow.png" alt="left arrow" />
+              <img
+                src="/merieme-portfolio/assets/left-arrow.png"
+                alt="left arrow"
+              />
             </button>
 
             <button
@@ -106,7 +113,7 @@ const Projects = () => {
               onClick={() => handleNavigation('next')}
             >
               <img
-                src="/assets/right-arrow.png"
+                src="/merieme-portfolio/assets/right-arrow.png"
                 alt="right arrow"
                 className="w-4 h-4"
               />

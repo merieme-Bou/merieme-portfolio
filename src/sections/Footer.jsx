@@ -15,7 +15,7 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/assets/github.svg"
+              src="/merieme-portfolio/assets/github.svg"
               alt="GitHub"
               className="w-1/2 h-1/2"
             />
@@ -29,7 +29,7 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/assets/linkdin.svg"
+              src="/merieme-portfolio/assets/linkdin.svg"
               alt="LinkedIn"
               className="w-1/2 h-1/2"
             />

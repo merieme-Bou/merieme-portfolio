@@ -9,7 +9,9 @@ import { useGSAP } from '@gsap/react'
 
 const DemoComputer = (props) => {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/models/computer.glb')
+  const { nodes, materials, animations } = useGLTF(
+    '/merieme-portfolio/models/computer.glb'
+  )
   const { actions } = useAnimations(animations, group)
 
   const txt = useVideoTexture(
@@ -1020,6 +1022,6 @@ const DemoComputer = (props) => {
   )
 }
 
-useGLTF.preload('/models/computer.glb')
+useGLTF.preload('/merieme-portfolio/models/computer.glb')
 
 export default DemoComputer

@@ -130,7 +130,7 @@ const Contact = () => {
               {loading ? 'Sending...' : 'Send Message'}
 
               <img
-                src="/assets/arrow-up.png"
+                src="/merieme-portfolio/assets/arrow-up.png"
                 alt="arrow-up"
                 className="field-btn_arrow"
               />

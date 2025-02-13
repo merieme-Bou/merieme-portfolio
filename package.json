@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b gh-pages -f"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -20,6 +20,7 @@
     "@tailwindcss/vite": "^4.0.3",
     "gsap": "^3.12.7",
     "leva": "^0.10.0",
+    "portfolio": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-globe.gl": "^2.31.3",
